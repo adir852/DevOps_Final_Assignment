@@ -1,0 +1,20 @@
+version: '3'
+services:
+  tomcat:
+    image: tomcat:latest
+    ports:
+     - '8082:8080'
+    volumes:
+     - /home/adir/devops-task/jenkins_compose/jenkins_configuration:/usr/local/tomcat/webapps/web/
+    container_name: tomcat-web-server
+  jenkins:
+    image: jenkins/jenkins:lts
+    privileged: true
+    user: root
+    ports:
+     - 8080:8080
+     - 50000:50000
+    container_name: jenkins-ci-server
+    volumes:
+     - /home/adir/devops-task/jenkins_compose/jenkins_configuration:/var/jenkins_home
+     - /var/run/docker.sock:/var/run/docker.sock

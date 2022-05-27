@@ -6,16 +6,12 @@
 body {
     background-image: url("https://tulanehullabaloo.com/wp-content/uploads/2020/02/DAI.-HANSON-No-A-01-696x900.png");
 }
-.no-background {
-    background-image: url("https://tulanehullabaloo.com/wp-content/uploads/2020/02/DAI.-HANSON-No-A-01-696x900.png");
-}
 </style>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Final Project - DevOps </title>
 </head>
 <body>
     <div class="header">
-  <h1>Header</h1>
-  <p>Have we reached A +? :)</p>
+  <h1>Have we reached A +? :)</h1>
 </body>
 </html>

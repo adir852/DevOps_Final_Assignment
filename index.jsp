@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>DevOps - Final Project </title>
+<title>Final Project - Have we reached A +? :) </title>
 </head>
 <body>
 <%= "We think we deserve a high score for the work, what do you think? :)?" %>

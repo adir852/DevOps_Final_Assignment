@@ -12,6 +12,6 @@ body {
 </head>
 <body>
     <div class="header">
-  <h1>Have we reached A +? WDYT? :)</h1>
+  <h1>Have we reached A+ ? WDYT? :)</h1>
 </body>
 </html>

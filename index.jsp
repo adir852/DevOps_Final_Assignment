@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>This is an example JSP document</title>
+<title>This is an example 2 JSP document</title>
 </head>
 <body>
 <%= "Hello World!" %>
